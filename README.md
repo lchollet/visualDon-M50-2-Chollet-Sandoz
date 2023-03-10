@@ -7,7 +7,9 @@ L’auteur s’appelle Yao Xinyu. La propagation de la pandémie du COVID-19 à 
 
 
 ## Description 
-Les données sont divisées en quatre fichiers CSV. Les deux premiers indiquent les produits internationaux et les deux derniers indiquent le prix des produits domestiques. On connaît pour chaque produit le pays, le prix et son augmentation.
+Les données sont divisées en quatre fichiers CSV. Les deux premiers indiquent les produits internationaux et les deux derniers indiquent le prix des produits domestiques. Pour les produits internationaux nous avons trois colonnes : date, pays, commoditée et prix. Pour les fichiers domestiques nous avons huits colonnes : pays, type de prix (vente au détails ou en gros), marché , commoditée , taux post-covid et taux annuel avant covid.
+
+Le fichier comporte en tout 17'935 lignes de données.
 
 
 ## But
@@ -15,4 +17,4 @@ Découvrir les plus grosses augmentations de prix de nourriture, par pays et par
 
 
 ## Références
-Pour ce qui est des références nous n’avons pas trouvé d’exemple d’usage de nos données.
+Un exemple de présentation de données est disponible par l'auteur original du jeux de données. Il fournit sur le site Zenodo.org, un fichier tableau (logiciel de visualisation). Une fois importé dans le logiciel, nous pouvons voir un top des pays avec la plus grosse augmentation de prix de nourritures. 
