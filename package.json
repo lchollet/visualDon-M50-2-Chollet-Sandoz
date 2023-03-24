@@ -1,0 +1,25 @@
+{
+  "name": "visualdon-m50-2-chollet-sandoz",
+  "version": "1.0.0",
+  "description": "visual donnee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lchollet/visualDon-M50-2-Chollet-Sandoz.git"
+  },
+  "author": "Leo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lchollet/visualDon-M50-2-Chollet-Sandoz/issues"
+  },
+  "homepage": "https://github.com/lchollet/visualDon-M50-2-Chollet-Sandoz#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "d3": "^7.8.2"
+  }
+}

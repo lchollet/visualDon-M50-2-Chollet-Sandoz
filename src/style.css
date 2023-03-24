@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Public Pixel';
+    src: url('PublicPixel-z84yD.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'Public Pixel', sans-serif;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+
+  body {
+    background: linear-gradient(to bottom right, #FFB6C1, #87CEFA);
+    animation: change-gradient 30s infinite;
+  }
+  
+  @keyframes change-gradient {
+    0% {
+      background: linear-gradient(to bottom right, #FFB6C1, #87CEFA);
+    }
+    50% {
+      background: linear-gradient(to bottom right, #87CEFA, #FFB6C1);
+    }
+    100% {
+      background: linear-gradient(to bottom right, #FFB6C1, #87CEFA);
+    }
+  }
+  

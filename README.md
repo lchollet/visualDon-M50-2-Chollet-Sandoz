@@ -17,4 +17,4 @@ Découvrir les plus grosses augmentations de prix de nourriture, par pays et par
 
 
 ## Références
-Un exemple de présentation de données est disponible par l'auteur original du jeux de données. Il fournit sur le site Zenodo.org, un fichier tableau (logiciel de visualisation). Une fois importé dans le logiciel, nous pouvons voir un top des pays avec la plus grosse augmentation de prix de nourritures. 
+Un exemple de présentation de données est disponible par l'auteur original du jeux de données. Il fournit sur le site Zenodo.org, un fichier tableau (logiciel de visualisation). Une fois importé dans le logiciel, nous pouvons voir un top des pays avec la plus grosse augmentation de prix de nourritures et cela avec une carte du monde.
