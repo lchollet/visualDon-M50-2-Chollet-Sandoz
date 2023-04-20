@@ -3,18 +3,17 @@
     src: url('PublicPixel-z84yD.ttf') format('truetype');
   }
   
-  body {
-    font-family: 'Public Pixel', sans-serif;
-  }
-  
   h1, p {
     text-align: center;
     margin-top: 3rem;
   }
 
   body {
+    font-family: 'Public Pixel', sans-serif;
     background: linear-gradient(to bottom right, #FFB6C1, #87CEFA);
     animation: change-gradient 30s infinite;
+    max-width: 800px;
+    margin: auto;
   }
   
   @keyframes change-gradient {
