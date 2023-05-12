@@ -50,7 +50,8 @@ const createConclusion = () => {
     let topCommodities = priceDiffByCommodity.sort(function(a,b) {
       return d3.descending(a.priceDiff, b.priceDiff);
     }).slice(0, 5);
-
+    
+    // log the top 5 commodities
     console.log(topCommodities);
 
   // initialize chart dimensions
@@ -115,7 +116,6 @@ const createConclusion = () => {
     .remove();
   });
 }
-
 
 //method to create a graph taking 2 parameters (Id of the div where the graph will be displayed and the data to display)
 const createBarChart = (chartId, dataToDislpay) => {
@@ -183,13 +183,9 @@ const createBarChart = (chartId, dataToDislpay) => {
     .remove();
 }
 
-
-
 addChart(5, "Beef meat", "beef");
-addChart(5, "Milk", "wheat");
-addChart(5, "Maize", "corn");
-addChart(5, "Sugar", "sugar");
-addChart(5, "Rice", "rice");
+addChart(6, "Milk", "wheat");
+addChart(6, "Maize", "corn");
+addChart(6, "Sugar", "sugar");
+addChart(6, "Rice", "rice");
 createConclusion();
-
-

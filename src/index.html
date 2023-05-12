@@ -1,30 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="app.js"></script>
-    
+
     <title>VisualDon</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Effet du COVID-19 sur le prix des denrées alimentaires</h1>
-    <p>Nous montrons sur cette page de visualisation de données l'agmentatation du prix des denrées alimentaires avant/après la crise COVID-19</p>
+    <p>
+      Nous montrons sur cette page de visualisation de données l'agmentatation
+      du prix des denrées alimentaires avant/après la crise COVID-19
+    </p>
 
-    <h2 id="beef">Boeuf</h2>    
+    <div class="titre">
+      <img src="steak.webp" />
+      <h2>Boeuf</h2>
+    </div>
+        <details>
+            <summary>
+                Plus d'informations
+                <span class="icon">👇</span>
+            </summary>
+            <p>
+            Pendant la crise du COVID-19, le prix du boeuf a augmenté en raison de
+            plusieurs facteurs. Tout d'abord, la pandémie a perturbé les chaînes
+            d'approvisionnement alimentaire, entraînant des pénuries de viande et
+            une augmentation des coûts de transport. De plus, les mesures de
+            distanciation sociale ont entraîné des fermetures d'abattoirs et de
+            centres de traitement, ce qui a réduit l'offre de viande sur le
+            marché. </br></br> En outre, la demande de viande de boeuf a augmenté alors que
+            les consommateurs se sont tournés vers les aliments plus durables et
+            riches en protéines pendant la pandémie. Cela a mis une pression
+            supplémentaire sur l'offre limitée de viande de boeuf, ce qui a
+            entraîné une hausse des prix.</br></br> Enfin, les coûts de production ont
+            également augmenté en raison des mesures de sécurité sanitaire mises
+            en place pour protéger les travailleurs de l'industrie alimentaire
+            contre le COVID-19. Ces mesures ont inclus la mise en place de
+            protocoles de sécurité supplémentaires et l'achat d'équipements de
+            protection individuelle, ce qui a entraîné des coûts supplémentaires
+            pour les producteurs de viande. </br></br>Dans l'ensemble, la combinaison de ces
+            facteurs a entraîné une augmentation des prix du boeuf pendant la
+            crise COVID-19, ce qui a eu un impact sur les consommateurs et les
+            producteurs de viande.
+            </p>
+        </details>
+    <div id="beef"></div>
 
-    <h2 id="wheat" >Lait</h2>
+    <div class="titre">
+      <img src="milk.webp" />
+      <h2>Lait</h2>
+    </div>
+    <details>
+        <summary>
+            Plus d'informations
+            <span class="icon">👇</span>
+        </summary>
+        <p>
+            Pendant la crise du COVID-19, le prix du lait a également augmenté en raison de divers facteurs. Tout d'abord, les perturbations des chaînes d'approvisionnement causées par la pandémie ont entraîné des difficultés dans le transport et la distribution du lait. Les restrictions de déplacement et les fermetures d'entreprises ont compliqué la collecte et la livraison du lait, ce qui a entraîné des coûts supplémentaires pour les producteurs.
+        </br></br>De plus, la demande de produits laitiers a augmenté pendant la crise du COVID-19, car de nombreuses personnes ont fait des achats paniques et ont cherché à stocker des aliments non périssables. Cela a créé une augmentation de la demande de lait et de produits laitiers, ce qui a exercé une pression sur l'offre.
+        </br></br>En outre, les mesures de distanciation sociale et les fermetures d'écoles et de restaurants ont également eu un impact sur le marché du lait. Les écoles ont été fermées, ce qui a réduit la demande de lait pour les repas scolaires, tandis que les restaurants ont limité leurs services ou ont dû fermer temporairement, réduisant ainsi la demande de produits laitiers pour la restauration.
+        </br></br>Enfin, les coûts de production ont augmenté en raison des mesures de sécurité sanitaire mises en place dans les fermes laitières. Les producteurs ont dû investir davantage dans les équipements de protection individuelle et mettre en place des protocoles de santé et de sécurité pour leurs travailleurs, ce qui a entraîné une augmentation des coûts de production.
+            Dans l'ensemble, ces facteurs combinés ont contribué à une augmentation du prix du lait pendant la crise du COVID-19, affectant à la fois les producteurs et les consommateurs.
+        </p>
+    </details>
+    <div id="wheat"></div>
 
-    <h2 id="corn">Maïs</h2>
+    <div class="titre">
+      <img src="corn.png" id="formatMais" />
+      <h2>Maïs</h2>
+    </div>
+    <details>
+        <summary>
+            Plus d'informations
+            <span class="icon">👇</span>
+        </summary>
+        <p>
+            Pendant la pandémie de COVID-19, le prix du maïs a augmenté en raison de plusieurs facteurs. Les perturbations des chaînes d'approvisionnement ont entraîné des difficultés dans le transport et la distribution du maïs, augmentant les coûts de production et limitant l'offre sur le marché. De plus, la demande de maïs a augmenté pour diverses utilisations, notamment dans les produits alimentaires et industriels. Les conditions météorologiques défavorables dans certaines régions productrices de maïs ont également contribué à la hausse des prix, ainsi que les fluctuations des taux de change et les politiques commerciales. Ces facteurs combinés ont eu un impact sur les consommateurs, les industries alimentaires et les producteurs de maïs.
+        </br></br>
+            En conséquence, la hausse des prix du maïs a entraîné des conséquences pour différents acteurs de l'industrie. Les consommateurs ont dû payer plus cher pour les produits alimentaires à base de maïs, tandis que les fabricants de biocarburants ont également subi des coûts de production plus élevés. Les producteurs de maïs ont pu bénéficier d'une augmentation des prix de vente, mais ont également dû faire face aux défis liés aux perturbations des chaînes d'approvisionnement et aux conditions climatiques difficiles. Dans l'ensemble, la hausse des prix du maïs pendant la pandémie de COVID-19 a souligné l'importance de la sécurité alimentaire et de la résilience des chaînes d'approvisionnement.
+        </p>
+    </details>
+    <div id="corn"></div>
 
-    <h2 id="sugar">Sucre</h2>
+    <div class="titre">
+      <img src="sugar.webp" id="formatSugar" />
+      <h2>Sucre</h2>
+    </div>
+    <details>
+        <summary>
+            Plus d'informations
+            <span class="icon">👇</span>
+        </summary>
+        <p>
+            Pendant la crise du COVID-19, le prix du sucre a augmenté en raison de perturbations dans les chaînes d'approvisionnement, d'une demande accrue de sucre et de fluctuations des prix des matières premières telles que la canne à sucre. Ces facteurs combinés ont restreint l'offre de sucre sur le marché et ont entraîné des coûts plus élevés pour les consommateurs et les industries utilisant le sucre dans leur production.
+        </p>
+    </details>
+    <div id="sugar"></div>
 
-    <h2 id="rice">Riz</h2>
+    <div class="titre">
+      <img src="rice.png" />
+      <h2>Riz</h2>
+    </div>
+    <details>
+        <summary>
+            Plus d'informations
+            <span class="icon">👇</span>
+        </summary>
+        <p>
+            Pendant la crise du COVID-19, le prix du riz a augmenté en raison de plusieurs facteurs. Tout d'abord, les perturbations des chaînes d'approvisionnement ont entraîné des difficultés dans le transport et la distribution du riz, ce qui a augmenté les coûts logistiques et réduit l'offre sur le marché.
+        </br></br>
+            De plus, la demande de riz a augmenté pendant la pandémie en raison de sa nature de base de l'alimentation et de sa longue durée de conservation. Les consommateurs ont cherché à stocker des aliments non périssables, ce qui a exercé une pression supplémentaire sur l'offre limitée de riz.
+        </br></br>
+            En outre, les politiques commerciales et les restrictions à l'exportation mises en place par certains pays ont également eu un impact sur le prix du riz. Ces mesures visant à protéger les stocks nationaux ont réduit l'offre sur le marché mondial et ont contribué à une augmentation des prix.
+        </br></br>
+            Dans l'ensemble, ces facteurs combinés ont entraîné une augmentation du prix du riz pendant la crise du COVID-19, ce qui a eu un impact sur les consommateurs, en particulier ceux dépendant du riz comme aliment de base, ainsi que sur les pays dépendant des importations de riz pour leur approvisionnement alimentaire.
+        </p>
+    </details>
+    <div id="rice"></div>
 
-    <h1 id="conclusion">Conclusion</h1>
-    <p>Pour conclure, voci les aliments qui on le plus été affecté dans le monde entier.</p>
-</body>
+    <h1>Conclusion</h1>
+    <p>
+      Pour conclure, voci les aliments qui sont le plus été affecté dans le monde 
+      entier par la crise du COVID-19.
+    </p>
+    <div id="conclusion"></div>
+
+    <footer>
+        Sources : <img src="git.png" id="git"></img><a href="https://github.com/lchollet/visualDon-M50-2-Chollet-Sandoz">GIT</a> 
+        
+        <img src="kaggle.png" id="kaggle"></img><a href="https://www.kaggle.com/datasets/thedevastator/domestic-food-prices-after-covid-19?resource=download&select=int_clean_data.csv">Kaggle (source données)</a> 
+    </footer>
+  </body>
 </html>

@@ -1,30 +1,93 @@
 @font-face {
-    font-family: 'Public Pixel';
-    src: url('PublicPixel-z84yD.ttf') format('truetype');
-  }
-  
-  h1, p {
-    text-align: center;
-    margin-top: 3rem;
-  }
+  font-family: "Public Pixel";
+  src: url("PublicPixel-z84yD.ttf") format("truetype");
+}
+body {
+  font-family: "Public Pixel", sans-serif;;
+  background-image: url("background.jpeg");
+  background-size: cover;
+  max-width: 800px;
+  margin: auto;
+  cursor: url('cursor.svg'), auto;
+  padding-bottom: 5%;
+}
+h1,
+p {
+  text-align: center;
+  margin-top: 3rem;
+  padding-inline: 1rem;
+}
+.titre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 180px;
+  height: 180px;
+}
+#formatMais {
+  height: 30%;
+  width: 30%;
+}
 
-  body {
-    font-family: 'Public Pixel', sans-serif;
-    background: linear-gradient(to bottom right, #FFB6C1, #87CEFA);
-    animation: change-gradient 30s infinite;
-    max-width: 800px;
-    margin: auto;
-  }
-  
-  @keyframes change-gradient {
-    0% {
-      background: linear-gradient(to bottom right, #FFB6C1, #87CEFA);
-    }
-    50% {
-      background: linear-gradient(to bottom right, #87CEFA, #FFB6C1);
-    }
-    100% {
-      background: linear-gradient(to bottom right, #FFB6C1, #87CEFA);
-    }
-  }
-  
+#formatSugar {
+  height: 15%;
+  width: 15%;
+  padding-right: 2%;
+}
+
+details {
+  user-select: none;
+  display: flex;
+  justify-content: center;
+}
+
+details>summary span.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  padding-left: 1%;
+}
+
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+details>summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  transition: all 0.3s;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20%;
+}
+
+#git{
+  width: 50px;
+  height: 50px;
+  margin-right: 2%;
+}
+
+#kaggle{
+  width: 80px;
+  height: 40px;
+  margin-left: 2%;
+}
